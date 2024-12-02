@@ -33,7 +33,6 @@ const Index = () => {
             <br/>
 
             <Header id = 'equinox' text = 'Equinox | 2020'/>
-            <Object location = '/equinox/Equinox Setup.exe'/>
             <Object location = '/equinox/game.sb3'/>
             <Object location = '/equinox/server.json'/>
             <br/>
