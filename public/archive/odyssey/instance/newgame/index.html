@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Odyssey - New Game</title>
+
+    <link rel="icon" type="image/x-icon" href="../../assets/favicon.svg">
+    <link href = '../../assets/base/style.css' rel = 'stylesheet' type = 'text/css'>
+</head>
+
+<body>
+
+    <p style = 'font-size: 50px; letter-spacing: 3px; text-shadow: 2px 2px orange;'>
+        Create Your Character
+    </p>
+
+    <p style = 'margin-top: -45px; font-size: 20px; '>
+        Choose wisely. This will set your journey's fate.
+    </p>
+
+    <p class = 'line'></p>
+
+    <div class = 'flexbox' style = 'font-size: 20px;'>
+        <p>Enter Your Name :</p>
+        <textarea id = 'playerNameInput' style = 'font-size: 17px; margin-left: 5px;' rows = 1 cols = 20 placeholder = 'Jack Renotes'></textarea>
+    </div>
+
+    <div class = 'flexbox' style = 'font-size: 20px; margin-top: -20px;'>
+        <p>Choose Your Difficulty :</p>
+        <select id = 'difficultyInput' style = 'margin-left: 5px;'>
+            <option value = 'easy'>Easy</option>
+            <option value = 'medium'>Medium</option>
+            <option value = 'hard'>Hard</option>
+            <option value = 'realistic'>Realistic</option>
+        </select>
+    </div>
+
+    <p class = 'line'></p>
+
+    <p id = 'factionTitle' style = 'font-size: 30px; margin-top: 20px; text-shadow: 1px 1px orange;'>Choose Your Faction: Citizen's Republic</p>
+    <p style = 'font-size: 17px; width: 600px; margin: -25px auto;'>This will decide how you lead your expedition, and the people you may come across on your journey.</p>
+    
+    <div class = 'flexbox' style = 'margin-top: 35px;'>
+
+        <div id = 'republicFactionButton' class = 'basic-button flexbox' style = 'width: 300px; height: 50px; text-shadow: 2px 2px 2px lightblue;'>
+            <img src = '../../assets/images/icons/shield.svg' width = 30>
+            <p style = 'padding-left: 10px; font-size: 25px'>Citizens Republic</p>
+        </div>
+
+        <div id = 'nutFactionButton' class = 'basic-button flexbox' style = 'width: 300px; height: 50px; margin-left: 10px; text-shadow: 2px 2px 2px lightcoral;'>
+            <img src = '../../assets/images/icons/nut.svg' width = 30>
+            <p style = 'padding-left: 10px; font-size: 25px'>Disciples Of The Nut</p>
+        </div>
+
+    </div>
+
+    <p class = 'line' style = 'margin-top: 20px;'></p>
+
+    <p style = 'font-size: 20px; width: 600px; margin: 20px auto;'>
+        The year is 3055. Due to humanity's negligence to Earth, the planet has become near inhabitable. You've been tasked along with your crew to fly around the Galaxy gathering resources for what's left of your species. <br><br> Not only do you have to gather a certain amount of resources, you have to gather them all in 50 days, or humanity goes extinct.
+    </p>
+
+    <p class = 'line' style = 'margin-top: 20px;'></p>
+
+    <div id = 'launchButton' class = 'basic-button flexbox' style = 'margin: 20px auto; width: 400px; height: 50px; text-shadow: 2px 2px red;'>
+        <img src = '../../assets/images/icons/spaceship.svg' width = 35>
+        <p id = 'launchButtonText' style = 'padding-left: 10px; font-size: 35px;'>Launch Expedition</p>
+    </div>
+    
+    <p style = 'margin-top: -10px; font-size: 13px;'>(once you click this button, you can't go back!)</p>
+
+    <img class = 'back' style = 'opacity: 40%; position: fixed; left: 0%; bottom: 0%;' src = '../../assets/images/icons/captain.svg' width = 50%>
+    
+    <p id = 'versionDisplay'></p>
+
+    <script src = 'script.js'></script>
+    <script src = '../../assets/base/script.js'></script>
+</body>
+
+</html>

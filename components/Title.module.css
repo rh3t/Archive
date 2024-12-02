@@ -1,0 +1,16 @@
+.titleContainer {
+    display: flex;
+    align-items: center;
+
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.titleContainer p {
+    margin: 0;
+    padding-left: 25px;
+}
+
+.version {
+    font-size: 1rem;
+}

@@ -1,0 +1,11 @@
+.object {
+    color: blue;
+    margin: 10px 0px;
+    transition: all ease-in-out 0.1s;
+}
+
+.object:hover {
+    cursor: pointer;
+    transform: translateX(5px);
+    transition: all ease-in-out 0.1s;
+}

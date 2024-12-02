@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Odyssey - New Game</title>
+
+  <link rel="icon" type="image/x-icon" href="../../assets/favicon.svg">
+  <link href = '../../assets/base/style.css' rel = 'stylesheet' type = 'text/css'>
+</head>
+
+<body style = 'margin-top: -20px'>
+
+  <p id = 'unitsCounter' class = 'golden-glow' style = 'font-size: 50px;'>$0</p>
+
+  <div style = 'margin-top: -50px;'>
+    <p id = 'dayCounter'>Day: 1 / 50</p>
+    <p id = 'dayDescription' style = 'margin-top: -15px;'>This is the day description. Blah blah blah.</p>
+  </div>
+
+  <p class = 'line' style = 'margin-bottom: 40px;'></p>
+
+  <img id = 'clickerPlanet' src = '' width = 500>
+
+  <p id = 'planetName' style = 'font-size: 30px;'>Current Planet: Maetbol</p>
+  <p id = 'planetDescription' style = 'margin-top: -20px;'>This is where the meat lives.</p>
+
+  <div id = 'nextPlanetButton' class = 'flexbox planetButton'>
+    <p style = 'padding-right: 10px;'>Next</p>
+    <img src = '../../assets/images/icons/play.svg' width = 35>
+  </div>
+
+  <div id = 'backPlanetButton' class = 'flexbox planetButton'>
+    <img src = '../../assets/images/icons/play.svg' width = 35 style = 'transform: scaleX(-1);'>
+    <p style = 'padding-left: 10px;'>Back</p>
+  </div>
+
+  <p class = 'line'></p>
+
+  <div class = 'flexbox' style = 'padding-top: 20px;'>
+
+    <div id = 'storageButton' class = 'basic-button flexbox' style = 'width: 200px;'>
+      <img src = '../../assets/images/icons/storage.svg' width = 25>
+      <p style = 'padding-left: 10px;'>STORAGE</p>
+    </div>
+
+    <div id = 'indexButton' class = 'basic-button flexbox' style = 'width: 200px; margin-left: 10px;'>
+      <img src = '../../assets/images/icons/book.svg' width = 25>
+      <p style = 'padding-left: 10px;'>INDEX</p>
+    </div>
+
+    <div id = 'crewButton' class = 'basic-button flexbox' style = 'width: 200px; margin-left: 10px;'>
+      <img src = '../../assets/images/icons/hammer.svg' width = 25>
+      <p style = 'padding-left: 10px;'>SHIP</p>
+    </div>
+
+  </div>
+
+  <p style = 'opacity: 30%; margin: 15px;'>Press "Q" to save your game at anytime</p>
+
+  <div id = 'indexPrompt' class = 'prompt fronter'>
+
+    <p id = 'indexPlanetName' style = 'font-size: 25px;'>Planet Index: {planetName}</p>
+    <p id = 'indexPlanetDescription' style = 'text-align: center; margin: -15px auto; width: 600px;'>{planetDescription}</p>
+
+    <div id = 'indexCloseButton' class = 'basic-button' style = 'width: 150px; height: 30px; margin: 30px auto 20px;'>
+      <p style = 'margin-top: 1px;'>Exit</p>
+    </div>
+
+  </div>
+  
+  <div id = 'crewPrompt' class = 'prompt fronter' style = 'margin-top: -200px;'>
+
+    <p id = 'spacecraftStatus' style = 'font-size: 30px;'>Spacecraft Status: OPTIMAL</p>
+    <p id = 'spacecraft' style = 'margin-top: -25px; font-size: 13px;'>Logged In - ADMIN - Spacecraft Administrator Panel</p>
+    <img src = '../../assets/images/rocket.png' width = 600px> <br>
+
+    <div class = 'flexbox' style = 'position: fixed; top: 27%; left: 73%;'>
+      <div id = craftingButton class = 'basic-button flexbox golden-glow' style = 'width: 200px; margin-left: 10px;'>
+        <img src = '../../assets/images/icons/cog.svg' width = 25>
+        <p style = 'padding-left: 10px;'>CRAFTING</p>
+      </div>
+    </div>
+
+    <div class = 'flexbox' style = 'margin-top: -20px; margin-bottom: 10px;'>
+
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+      
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+
+    </div>
+
+    <div class = 'flexbox' style = 'margin-top: -20px;'>
+
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+      
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+
+    </div>
+
+    <div class = 'flexbox' style = 'margin-top: -20px;'>
+
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+      
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+
+      <div class = 'basic-button ship-upgrade'>
+        <p style = 'margin-top: 7px;'>Fuel Upgrade</p>
+        <p style = 'margin-top: -12px; color: gold;'>$10,000</p>
+      </div>
+
+    </div>
+
+  <div id = 'craftingPrompt' class = 'prompt fronter' style = 'margin-top: -200px;'>
+    <p id = 'workstationTitle' style = 'font-size: 35px;'>SHIP WORKSTATION VER. 6.13</p>
+    <p id = 'workstationInfo' style = 'margin-top: -25px; font-size: 20px;'>Welcome Captain, you may assign any of the tasks below:</p>
+
+     <div id = 'craftingCloseButton' class = 'basic-button' style = 'width: 150px; height: 30px; margin: 10px auto 20px;'>
+       <p style = 'margin-top: 1px;'>Exit</p>
+     </div>
+   </div>
+
+    <div id = 'crewCloseButton' class = 'basic-button' style = 'width: 150px; height: 30px; margin: 10px auto 20px;'>
+      <p style = 'margin-top: 1px;'>Exit</p>
+    </div>
+
+  </div>
+
+  <p id = 'alertBox' class = 'fronter'>NOTE: This is a template alert.</p>
+  <p id = 'versionDisplay'></p>
+  <script src = 'script.js'></script>
+  <script src = '../../assets/base/script.js'></script>
+</body>
+
+</html>

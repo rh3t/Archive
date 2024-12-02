@@ -1,0 +1,108 @@
+{
+  "server_data":
+  {
+    "server_version": 1.0,
+    "allow_connection": true
+  },
+
+  "lobby_data":
+  {
+    "queueing_time_min": 2,
+    "queueing_time_max": 10,
+
+    "loading_time_min": 3,
+    "loading_time_max": 7
+  },
+
+  "game_data":
+  {
+    "environment_props": 50,
+
+    "player_health": 25,
+    "player_movement_speed": 1,
+    "player_sprint_speed": 2
+  },
+
+  "gamemode_data":
+  {
+
+    "test_range":
+    {
+      "allow_queue": true,
+      "game_environment": "map_range"
+    },
+
+    "main":
+    {
+      "allow_queue": true,
+      "game_environment": "main"
+    }
+    
+  },
+
+  "weapon_data":
+  {
+
+    "None":
+    {
+      "weapon_magazine_size": 0
+    },
+    
+    "Ivory Assault Rifle":
+    {
+      "enabled": true,
+
+      "weapon_ammo_type": "medium",
+      "weapon_fire_mode": "automatic",
+
+      "weapon_damage": 3,
+      "weapon_magazine_size": 18,
+      "weapon_fire_rate": 0.05,
+      "weapon_reload_time": 1.7,
+      "weapon_bullet_speed": 25
+    },
+
+    "Grace Pistol":
+    {
+      "enabled": true,
+
+      "weapon_ammo_type": "light",
+      "weapon_fire_mode": "single",
+
+      "weapon_damage": 5,
+      "weapon_magazine_size": 8,
+      "weapon_fire_rate": 0,
+      "weapon_reload_time": 0.9,
+      "weapon_bullet_speed": 25
+    },
+
+    "Rexim SMG":
+    {
+      "enabled": true,
+
+      "weapon_ammo_type": "light",
+      "weapon_fire_mode": "automatic",
+
+      "weapon_damage": 2,
+      "weapon_magazine_size": 25,
+      "weapon_fire_rate": 0.03,
+      "weapon_reload_time": 1.2,
+      "weapon_bullet_speed": 30
+    },
+
+    "Vector Rifle":
+    {
+      "enabled": true,
+      
+      "weapon_ammo_type": "heavy",
+      "weapon_fire_mode": "single",
+
+      "weapon_damage": 20,
+      "weapon_magazine_size": 3,
+      "weapon_fire_rate": 1.7,
+      "weapon_reload_time": 2.6,
+      "weapon_bullet_speed": 50
+    }
+    
+  }
+}

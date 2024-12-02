@@ -1,0 +1,119 @@
+{
+  
+  "serverdata":
+  {
+    "allowconnection": true,
+    "serverversion": "0.13"
+  },
+  
+  "gamedata":
+  {
+    "worlddata":
+    {
+      "show_generating_prompt": true,
+      "generating_prompt_length": 1.5,
+      "weapons_spawn_with_ammo": true,
+      
+     
+      "max_item_drops": 50,
+      "max_envoirnment_spawns": 30,
+      "item_drop_area_max": 1500,
+      "item_drop_area_min": -1500
+    },
+
+    "playerdata":
+    {
+      "max_player_health": 30,
+      "max_player_stamina": 30,
+      
+      "default_movement_speed": 1,
+      "sprint_movement_speed": 2,
+      "stamina_increase_rate": 0.5,
+      "stamina_decrease_rate": 0.2,
+      "crippled_threshold": 5,
+      "exausted_timeout": 5
+    },
+    
+    "weapondata":
+    {
+      
+      "Feeble AR":
+      {
+        "item_type": "weapon",
+        
+        "damage": 5.0,
+        "reload_time": 3.0,
+        "magazine_size": 17.0,
+        "fire_rate": 0.08,
+        "fire_mode": "auto",
+        "bullet_speed": 25.0,
+        
+        "weapon_type": "assault rifle",
+        "weapon_grade": "E"
+      },
+      
+      "Standard AR":
+      {
+        "item_type": "weapon",
+        
+        "damage": 7.0,
+        "reload_time": 2.3,
+        "magazine_size": 25.0,
+        "fire_rate": 0.05,
+        "fire_mode": "auto",
+        "bullet_speed": 25.0,
+        
+        "weapon_type": "assault rifle",
+        "weapon_grade": "C"
+      },
+
+      "Feeble Pistol":
+      {
+        "item_type": "weapon",
+        
+        "damage": 3.0,
+        "reload_time": 1.8,
+        "magazine_size": 7.0,
+        "fire_rate": 0,
+        "fire_mode": "single",
+        "bullet_speed": 25.0,
+        
+        "weapon_type": "pistol",
+        "weapon_grade": "E"
+      },
+
+      "Standard Pistol":
+      {
+        "item_type": "weapon",
+        
+        "damage": 5.0,
+        "reload_time": 1.3,
+        "magazine_size": 16.0,
+        "fire_rate": 0,
+        "fire_mode": "single",
+        "bullet_speed": 25.0,
+        
+        "weapon_type": "pistol",
+        "weapon_grade": "C"
+      },
+
+      "GXR Railgun":
+      {
+        "item_type": "weapon",
+        
+        "damage": 15.0,
+        "reload_time": 2.0,
+        "magazine_size": 1.0,
+        "fire_rate": 0.0,
+        "fire_mode": "single",
+        "bullet_speed": 40.0,
+        
+        "weapon_type": "railgun",
+        "weapon_grade": "S"
+      }
+      
+    }
+    
+  }
+  
+}
