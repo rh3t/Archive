@@ -12,7 +12,7 @@ const Header = ({text, id}: HeaderProps) => {
     return(
 
         <p id = {id} className = {styles.Header}>
-            > {text}
+            {'>'} {text}
         </p>
 
     )
