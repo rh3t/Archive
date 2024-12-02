@@ -21,18 +21,19 @@ const Index = () => {
             <Separator/>
 
             <p style = {{width: '50vw'}}>
-                This is an archive containing almost everything i've developed and worked on publically, including some other things. Some of these are unfinished and/or not working, while some of these are actual bangers and should get more attention. This place also has some miscellaneous stuff like some shitposts and some other stuff that I share. Feel free to take a look around. No judging past this point lmao.
+                This is an archive containing almost everything i've developed and worked on publically, including some other things. Some of these are unfinished and/or not working, while some of these are actual bangers and should get more attention. This place also has some miscellaneous stuff like some shitposts and some other stuff that I share. Feel free to take a look around. No judging past this point lmao. <br/><br/> Everything is served over a CloudFlare CDN.
             </p>
-
+        
             <Separator/>
 
             <Header id = 'thelastfew' text = 'The Last Few | 2021'/>
-            <Object location = 'the-last-few/index.html'/>
-            <Object location = 'the-last-few/game.sb3'/>
-            <Object location = 'the-last-few/server.json'/>
+            <Object location = '/the-last-few/index.html'/>
+            <Object location = '/the-last-few/game.sb3'/>
+            <Object location = '/the-last-few/server.json'/>
             <br/>
 
             <Header id = 'equinox' text = 'Equinox | 2020'/>
+            <Object location = '/equinox/Equinox Setup.exe'/>
             <Object location = '/equinox/game.sb3'/>
             <Object location = '/equinox/server.json'/>
             <br/>
@@ -65,10 +66,6 @@ const Index = () => {
             <Object location = '/misc/gymbro.txt'/>
 
             <Separator/>
-
-            <p>
-                Ahh! You've reached the end!
-            </p>
         
         </>
 

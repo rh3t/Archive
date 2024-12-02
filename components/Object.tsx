@@ -11,7 +11,7 @@ interface ObjectProps {
 const Object = ({location}: ObjectProps) => {
 
     function handleClick(url: string) {
-        window.open(`/archive/${url}`);
+        window.open(`https://static.rh3t.dev/archive${url}`);
     }
 
     return (
