@@ -27,9 +27,8 @@ const Index = () => {
             <Separator/>
 
             <Header id = 'thelastfew' text = 'The Last Few | 2021'/>
-            <Object location = '/the-last-few/index.html'/>
-            <Object location = '/the-last-few/game.sb3'/>
-            <Object location = '/the-last-few/server.json'/>
+            <Object cdn = {true} location = '/the-last-few/index.html'/>
+            <Object cdn = {true} location = '/the-last-few/game.sb3'/>
             <br/>
 
             <Header id = 'equinox' text = 'Equinox | 2020'/>

@@ -11,7 +11,7 @@ const Title = () => {
             <div>
                 <p>The Archive</p>
                 <p className = {styles.version}>
-                    Version: {data.version}
+                    v{data.version} - {data.build_date}
                 </p>
             </div>
         </div>

@@ -5,13 +5,20 @@ import styles from './Object.module.css';
 // Props
 interface ObjectProps {
     location: string
+    cdn?: boolean
 }
 
 // Component
-const Object = ({location}: ObjectProps) => {
+const Object = ({location, cdn}: ObjectProps) => {
 
     function handleClick(url: string) {
-        window.open(`https://static.rh3t.dev/archive${url}`);
+        
+        if (cdn) {
+            window.open(`https://static.rh3t.dev/archive${url}`);
+        } else {
+            window.open(url);
+        }
+
     }
 
     return (
