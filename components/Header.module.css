@@ -10,5 +10,7 @@
 }
 
 .headerImage {
-    padding-left: 10px;
+    margin-left: 13px;
+    border-radius: 5px;
+    border: 2px solid black;
 }
