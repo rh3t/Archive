@@ -26,10 +26,6 @@ const Index = () => {
         
             <Separator/>
 
-            <Header id = 'prototype' text = 'Prototype (2021)' working = {false}/>
-            <Ob
-            <br/>
-
             <Header id = 'thelastfew' text = 'The Last Few (2021)' working = {true}/>
             <Object cdn = {true} location = '/the-last-few/index.html'/>
             <Object cdn = {true} location = '/the-last-few/game.sb3'/>
