@@ -32,6 +32,10 @@ const Index = () => {
             <Object location = '/servers/the-last-few.js'/>
 
             <Separator/>
+
+            <p>
+                You reached the end!
+            </p>
         
         </>
 
