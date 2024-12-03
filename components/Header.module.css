@@ -1,3 +1,15 @@
+/*
+
+    --default-radius: 5px;
+
+    --red: rgb(247, 22, 56);
+    --red-background: rgb(247, 22, 56, 0.25);
+
+    --green: rgb(26, 247, 22);
+    --green-background: rgb(26, 247, 22);
+
+*/
+
 .headerContainer {
     display: flex;
     align-items: center;
@@ -10,7 +22,17 @@
 }
 
 .headerImage {
+    padding: 2px;
     margin-left: 13px;
-    border-radius: 5px;
-    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.red {
+    border: 2px solid #f71616;
+    background-color: rgb(247, 22, 22, 0.25);
+}
+
+.green {
+    border: 2px solid #38f716;
+    background-color: rgb(56, 247, 22, 0.25);
 }

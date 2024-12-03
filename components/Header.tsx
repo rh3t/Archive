@@ -16,7 +16,7 @@ const Header = ({text, id, working}: HeaderProps) => {
             <p className = {styles.headerContent}>
                 {'>'} {text}
             </p>
-            {working ? <img className = {styles.headerImage} src = '/images/check.svg' width = {25}/> : <img className = {styles.headerImage} src = '/images/close.svg' width = {25}/>}
+            {working ? <img className = {`${styles.headerImage} ${styles.green}`} src = '/images/check.svg' width = {20}/> : <img className = {`${styles.headerImage} ${styles.red}`} src = '/images/close.svg' width = {20}/>}
         </div>
 
     )
