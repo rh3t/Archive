@@ -5,15 +5,19 @@ import styles from './Header.module.css'
 interface HeaderProps {
     id: string
     text: string
+    working: boolean
 }
 
 // Component
-const Header = ({text, id}: HeaderProps) => {
+const Header = ({text, id, working}: HeaderProps) => {
     return(
 
-        <p id = {id} className = {styles.Header}>
-            {'>'} {text}
-        </p>
+        <div id = {id} className = {styles.headerContainer}>
+            <p className = {styles.headerContent}>
+                {'>'} {text}
+            </p>
+            {working ? <img className = {styles.headerImage} src = '/images/check.svg' width = {25}/> : <img className = {styles.headerImage} src = '/images/close.svg' width = {25}/>}
+        </div>
 
     )
 }

@@ -7,7 +7,7 @@ const Title = () => {
     return (
 
         <div className = {styles.titleContainer}>
-            <img src = '/lectern.png' width = {100}/>
+            <img src = '/images/lectern.png' width = {100}/>
             <div>
                 <p>The Archive</p>
                 <p className = {styles.version}>

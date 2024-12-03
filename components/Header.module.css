@@ -1,5 +1,14 @@
-.Header {
-    margin: 0px;
+.headerContainer {
+    display: flex;
+    align-items: center;
+}
+
+.headerContent {
+    margin: 0;
     font-size: 25px;
     font-weight: bold;
+}
+
+.headerImage {
+    padding-left: 10px;
 }
