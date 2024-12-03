@@ -14,7 +14,7 @@ const Object = ({location, cdn}: ObjectProps) => {
     function handleClick(url: string) {
         
         if (cdn) {
-            window.open(`https://archive-cdn.rh3t.dev/archive${url}`);
+            window.open(`https://archive-cdn.rh3t.dev${url}`);
         } else {
             window.open(url);
         }
