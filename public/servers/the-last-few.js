@@ -1,4 +1,7 @@
 // This is a fork of MikeDev's cloudlink that only has it's fetchURL function modified to return set data.
+// This is honestly a horrible solution to my issue but it's going to do for now lol.
+
+// TODO: this
 
 var servers = {}; ; // Server list
 let mWS = null;
