@@ -7,7 +7,7 @@ import Separator from '@/components/Separator';
 
 // Meta
 export const metadata: Metadata = {
-    title: 'archive.rh3t.dev'
+    title: 'home | archive.rh3t.dev'
 }
 
 // Component
