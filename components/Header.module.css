@@ -1,15 +1,3 @@
-/*
-
-    --default-radius: 5px;
-
-    --red: rgb(247, 22, 56);
-    --red-background: rgb(247, 22, 56, 0.25);
-
-    --green: rgb(26, 247, 22);
-    --green-background: rgb(26, 247, 22);
-
-*/
-
 .headerContainer {
     display: flex;
     align-items: center;
@@ -24,7 +12,7 @@
 .headerImage {
     padding: 2px;
     margin-left: 13px;
-    border-radius: 50%;
+    border-radius: 5px;
 }
 
 .red {

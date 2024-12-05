@@ -21,7 +21,7 @@ const Index = () => {
             <Separator/>
 
             <p style = {{width: '50vw'}}>
-                This is an archive containing almost everything i've developed and worked on publically, including some other miscellaneous things to take a look at. Everything is served on a CloudFlare R2 bucket and you can check the status of the project respectively. <br/><br/> Everything is sorted by complexity && status. (top to bottom).
+                This is an archive (will eventually) contain almost everything i've developed and worked on publically, including some other miscellaneous things to take a look at. Everyhing is served off of a CloudFlare R2 bucket since pages doesn't allow for file uploads bigger then 25mib. <br/><br/> Sorted by complexity.
             </p>
         
             <Separator/>
