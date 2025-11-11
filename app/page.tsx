@@ -10,6 +10,13 @@ const Page = () => {
             <Title/>
             <Divider/>
 
+            <Section text = 'One Night at a Pizzaria (2020)' status = {true}>
+
+                <Object dir = 'onaap' file = 'game.sb3'/>
+                <Object dir = 'onaap' file = 'index.html'/>
+
+            </Section>
+
             <Section text = 'Prototype (2021)' status = {false}>
 
                 <Object dir = 'prototype' file = 'game.sb3'/>
@@ -23,13 +30,6 @@ const Page = () => {
                 <Object dir = 'tlf' file = 'data.json'/>
                 <Object dir = 'tlf' file = 'game.sb3'/>
                 <Object dir = 'tlf' file = 'index.html'/>
-
-            </Section>
-
-            <Section text = 'One Night at a Pizzaria (2020)' status = {true}>
-
-                <Object dir = 'onaap' file = 'game.sb3'/>
-                <Object dir = 'onaap' file = 'index.html'/>
 
             </Section>
 
@@ -55,6 +55,30 @@ const Page = () => {
             
                 <Object dir = 'arsenal' file = 'game.sb3'/>
                 <Object dir = 'arsenal' file = 'index.html'/>
+
+            </Section>
+
+            <Section text = 'Installr (2023)' status = {true}>
+
+                <Object dir = 'installr' file = 'index.html'/>
+                <Object dir = 'installr' file = 'library.html'/>
+                <Object dir = 'installr' file = 'LICENSE'/>
+                <Object dir = 'installr' file = 'README.md'/>
+                <Object dir = 'installr' file = 'script.js'/>
+                <Object dir = 'installr' file = 'style.css'/>
+
+            </Section>
+
+            <Section text = 'LynkNest (2023)' status = {true}>
+
+                <Object dir = 'lynknest' file = '404.html'/>
+                <Object dir = 'lynknest' file = 'index.html'/>
+                <Object dir = 'lynknest' file = 'LICENSE'/>
+                <Object dir = 'lynknest' file = 'manifest.json'/>
+                <Object dir = 'lynknest' file = 'README.md'/>
+                <Object dir = 'lynknest' file = 'script.js'/>
+                <Object dir = 'lynknest' file = 'style.css'/>
+                <Object dir = 'lynknest' file = 'updatelog.md'/>
 
             </Section>
 

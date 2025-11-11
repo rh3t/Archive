@@ -8,7 +8,7 @@ const Title = () => {
             <div className = {styles.Title}>
                 <img src = '/icons/archive.svg' width = {50}/>
                 <span>
-                    meddaugh.xyz archive
+                    archive.meddaugh.xyz
                 </span>
             </div>
 
