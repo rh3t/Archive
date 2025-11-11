@@ -1,21 +1,31 @@
-// Import
 import './globals.css';
+import type { Metadata } from 'next';
+import Footer from '@/components/Footer';
+import { Roboto_Mono } from 'next/font/google';
 
-// Component
-const RootLayout = ({children}: {children: React.ReactNode}) => {
+export const metadata: Metadata = {
+    title: 'home • archive.meddaugh.xyz'
+}
+
+const font = Roboto_Mono({
+    subsets: ['latin']
+})
+
+interface LayoutProps {
+    children: React.ReactNode
+}
+
+const RootLayout = ({children}: LayoutProps) => {
     return (
 
-        <html lang = 'en'>
-            <head>
-                <meta name = 'viewport' content = 'width=device-width, initial-scale=1'/>
-            </head>
+        <html lang = 'en' className = {font.className}>
             <body>
                 {children}
+                <Footer/>
             </body>
         </html>
 
     )
 }
 
-
-export default RootLayout
+export default RootLayout;

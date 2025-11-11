@@ -1,0 +1,14 @@
+.Section {
+    gap: 2px;
+    display: flex;
+    align-items: center;
+
+    padding: 15px 0px 3px 0px;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Section img {
+    padding-left: 5px;
+}

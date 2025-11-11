@@ -1,16 +1,25 @@
-.titleContainer {
+.Title {
     display: flex;
     align-items: center;
 
-    font-size: 50px;
+    font-size: 35px;
     font-weight: bold;
 }
 
-.titleContainer p {
-    margin: 0;
-    padding-left: 25px;
+.Title img {
+    padding-right: 15px;
 }
 
-.version {
-    font-size: 1rem;
+.Description {
+    width: 700px;
+    padding-top: 5px;
+}
+
+.Legend {
+    display: flex;
+    align-items: center;
+}
+
+.Legend img {
+    padding-right: 5px;
 }

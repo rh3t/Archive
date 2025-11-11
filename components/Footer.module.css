@@ -1,0 +1,40 @@
+.Footer {
+    right: 0%;
+    bottom: 0%;
+    margin: 15px;
+    position: fixed;
+
+    color: white;
+
+    gap: 10px;
+    display: flex;
+    font-weight: bold;
+}
+
+.Footer div {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.Footer img {
+    padding-right: 10px;
+}
+
+.Version {
+    background-color: #3c3c3c;
+}
+
+.Website {
+    display: flex;
+    align-items: center;
+    background-color: #232323;
+    
+    transition: all ease-in-out 0.1s;
+}
+
+.Website:hover {
+    cursor: pointer;
+    filter: brightness(1.25);
+    
+    transition: all ease-in-out 0.1s;
+}

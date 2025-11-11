@@ -1,31 +1,25 @@
-// Import
 "use client";
+
 import styles from './Object.module.css';
 
-// Props
 interface ObjectProps {
-    location: string
-    cdn?: boolean
+    dir: string,
+    file: string
 }
 
-// Component
-const Object = ({location, cdn}: ObjectProps) => {
+const Object = ({dir, file}: ObjectProps) => {
 
-    function handleClick(url: string) {
+    const openObject = (dir: string, file: string) => {
+
+        window.open(`https://cdn.meddaugh.xyz/archive/${dir}/${file}`);
         
-        if (cdn) {
-            window.open(`https://archive-cdn.rh3t.dev${url}`);
-        } else {
-            window.open(url);
-        }
-
     }
 
     return (
 
-        <p className = {styles.object} onClick = {() => handleClick(location)}>
-            {location}
-        </p>
+        <div className = {styles.Object} onClick = {() => openObject(dir, file)}>
+            ./{file}
+        </div>
 
     )
 }
