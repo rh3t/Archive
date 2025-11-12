@@ -9,6 +9,18 @@ const Page = () => {
         
             <Title/>
             <Divider/>
+            
+            <Section text = 'CottenCandy Archive (2019)' status = {true}>
+
+                <Object dir = 'ccarchive' file = '404.html'/>
+                <Object dir = 'ccarchive' file = 'index.html'/>
+                <Object dir = 'ccarchive' file = 'LICENSE'/>
+                <Object dir = 'ccarchive' file = 'manifest.json'/>
+                <Object dir = 'ccarchive' file = 'README.md'/>
+                <Object dir = 'ccarchive' file = 'script.js'/>
+                <Object dir = 'ccarchive' file = 'style.css'/>
+            
+            </Section>
 
             <Section text = 'One Night at a Pizzaria (2020)' status = {true}>
 
